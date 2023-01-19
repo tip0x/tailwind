@@ -1,0 +1,14 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "license": "MIT",
+  "scripts": {
+    "tailwind": "yarn tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "yarn prettier --write **/*.html"
+  },
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "tailwindcss": "^3.2.4"
+  }
+}
